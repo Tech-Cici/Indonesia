@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+*{
+    background-image: linear-gradient(to bottom, rgba(12, 37, 118, 0.5), rgba(83, 100, 227, 0.5)), 
+    url('R\ \(6\).jpeg');
+    width: 100%;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+.fox{
+    display: flex;
+    gap: 0;
+    padding: 10px;
+    margin: 0;
+ }
+
+.Nav{
+    color: white;
+    display: flex;
+   
+
+}
+.Nav a{
+    cursor: pointer;
+    margin-top: 3vh;
+    padding: 20px;
+    margin-left: 20px;
+    column-gap: 0;
+}
+.anchor{
+    margin-top: 15px;
+    padding: 20px;
+    margin-left: 300px;
+
+}
+
+
+.input{
+    display: flex;
+}
+.searchicon{
+   margin-top: 27%;
+    color: #888;  
+    background-color: #fff;
+}
+.p{
+    margin-top: 1%;
+    margin-left: 300px;
+
+}
+
+.progress-bar-container {
+    margin-left: 10px;
+    width: 0px;  
+    height: 400px; 
+    border: 1px solid #fff;  
+    overflow: hidden;  
+    position: relative;
+  }
+  
+  
+.body{
+    color: #fff;
+    display: flex;
+    margin-left:15px;
+    margin-top: 10%;
+    padding: 10px;
+}
+.words{
+    padding: 0;
+    width: 800%;    
+}
+.words h1{
+    font-size: 500%;
+    padding: 0;
+}
+button{
+    width: 18%;
+    padding: 2%;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #888;
+    fill: black;
+}
+button:hover{
+    background-color: black;
+}
+.img{
+    padding: 10px;
+    width: 300%;
+}
+
+img{
+    height: 300px;
+    animation: pulse 2s infinite; 
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+img:hover{
+    transform: translateY(-10px);
+    transform: scale(1.1);
+    
+}
+.places{
+    animation: pulse 2s infinite; 
+
+}
+  
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  
